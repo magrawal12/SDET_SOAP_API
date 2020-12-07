@@ -1,0 +1,74 @@
+2020-12-04 19:27:35,081 WARN  [SoapUI] Missing folder [C:\Users\Manish\SOAP_Project_Manish\ext] for external libraries
+2020-12-04 19:27:35,667 INFO  [DefaultSoapUICore] initialized soapui-settings from [C:\Users\Manish\soapui-settings.xml]
+2020-12-04 19:27:39,008 INFO  [WsdlProject] Loaded project from [file:/C:/Users/Manish/SOAP_Project_Manish/SOAP-Poj-Automation-soapui-project.xml]
+2020-12-04 19:27:40,290 INFO  [SoapUITestCaseRunner] Running SoapUI tests in project [SOAP_Poj_Automation]
+2020-12-04 19:27:40,292 INFO  [SoapUITestCaseRunner] Running Project [SOAP_Poj_Automation], runType = SEQUENTIAL
+2020-12-04 19:27:40,319 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [PropertyTtransfer]
+2020-12-04 19:27:40,342 INFO  [SoapUITestCaseRunner] running step [ProductTypeList]
+2020-12-04 19:27:44,707 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-12-04 19:27:44,708 INFO  [SoapUITestCaseRunner] running step [CreateProduct]
+2020-12-04 19:27:51,667 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-12-04 19:27:51,667 INFO  [SoapUITestCaseRunner] running step [PropertyTransferSKUID]
+2020-12-04 19:27:53,848 INFO  [SoapUITestCaseRunner] running step [GetProductbyID]
+2020-12-04 19:27:54,926 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-12-04 19:27:54,926 INFO  [SoapUITestCaseRunner] running step [Property Transfer Delete]
+2020-12-04 19:27:54,929 INFO  [SoapUITestCaseRunner] running step [DeleteProduct]
+2020-12-04 19:27:56,171 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-12-04 19:27:56,172 INFO  [SoapUITestCaseRunner] running step [Properties]
+2020-12-04 19:27:56,179 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [PropertyTtransfer], time taken: 15797ms, status: FINISHED
+2020-12-04 19:27:56,187 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Property_GroovyScript]
+2020-12-04 19:27:56,193 INFO  [SoapUITestCaseRunner] running step [Groovy Script]
+2020-12-04 19:27:57,147 INFO  [log] Testcase name is Property_GroovyScript
+2020-12-04 19:27:57,165 INFO  [log] TestSuite name is TestSuite2_Groovy
+2020-12-04 19:27:57,169 INFO  [log] Request is <soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:def="http://soap.upskills.in/soap/default?services=catalogProductTypeListV1">\r
+   <soap:Header/>\r
+   <soap:Body>\r
+      <def:catalogProductTypeListV1GetProductTypesRequest/>\r
+   </soap:Body>\r
+</soap:Envelope>
+2020-12-04 19:27:57,800 INFO  [log] Counter is 0
+2020-12-04 19:27:57,835 INFO  [log] Count is 1 SKU ID is SKU00107
+2020-12-04 19:27:57,835 INFO  [log] Count is 1 Name is Apple Macbook 7
+2020-12-04 19:27:58,014 INFO  [SoapUITestCaseRunner] running step [Properties]
+2020-12-04 19:27:58,015 INFO  [SoapUITestCaseRunner] running step [ProductTypeList]
+2020-12-04 19:27:58,745 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-12-04 19:27:58,745 INFO  [SoapUITestCaseRunner] running step [CreateProduct]
+2020-12-04 19:28:00,254 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-12-04 19:28:00,254 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-12-04 19:28:00,257 INFO  [SoapUITestCaseRunner] running step [PropertyTransferSKUID]
+2020-12-04 19:28:00,264 INFO  [SoapUITestCaseRunner] running step [GetProductbyID]
+2020-12-04 19:28:01,276 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-12-04 19:28:01,276 INFO  [SoapUITestCaseRunner] running step [Property Transfer Delete]
+2020-12-04 19:28:01,279 INFO  [SoapUITestCaseRunner] running step [DeleteProduct]
+2020-12-04 19:28:02,401 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-12-04 19:28:02,401 INFO  [SoapUITestCaseRunner] Assertion [Contains] has status VALID
+2020-12-04 19:28:02,401 INFO  [SoapUITestCaseRunner] running step [GroovyScript_Loop]
+2020-12-04 19:28:02,418 INFO  [SoapUITestCaseRunner] running step [Groovy Script]
+2020-12-04 19:28:02,418 INFO  [log] Testcase name is Property_GroovyScript
+2020-12-04 19:28:02,419 INFO  [log] TestSuite name is TestSuite2_Groovy
+2020-12-04 19:28:02,422 INFO  [log] Request is <soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:def="http://soap.upskills.in/soap/default?services=catalogProductTypeListV1">\r
+   <soap:Header/>\r
+   <soap:Body>\r
+      <def:catalogProductTypeListV1GetProductTypesRequest/>\r
+   </soap:Body>\r
+</soap:Envelope>
+2020-12-04 19:28:02,543 INFO  [log] Counter is 1
+2020-12-04 19:28:02,543 INFO  [log] Count is 2 SKU ID is SKU00108
+2020-12-04 19:28:02,544 INFO  [log] Count is 2 Name is Apple Macbook 8
+2020-12-04 19:28:02,632 INFO  [SoapUITestCaseRunner] running step [Properties]
+2020-12-04 19:28:02,633 INFO  [SoapUITestCaseRunner] running step [ProductTypeList]
+2020-12-04 19:28:03,339 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-12-04 19:28:03,351 INFO  [SoapUITestCaseRunner] running step [CreateProduct]
+2020-12-04 19:28:05,971 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-12-04 19:28:05,972 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-12-04 19:28:05,972 INFO  [SoapUITestCaseRunner] running step [PropertyTransferSKUID]
+2020-12-04 19:28:05,974 INFO  [SoapUITestCaseRunner] running step [GetProductbyID]
+2020-12-04 19:28:07,013 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-12-04 19:28:07,013 INFO  [SoapUITestCaseRunner] running step [Property Transfer Delete]
+2020-12-04 19:28:07,015 INFO  [SoapUITestCaseRunner] running step [DeleteProduct]
+2020-12-04 19:28:08,218 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-12-04 19:28:08,218 INFO  [SoapUITestCaseRunner] Assertion [Contains] has status VALID
+2020-12-04 19:28:08,218 INFO  [SoapUITestCaseRunner] running step [GroovyScript_Loop]
+2020-12-04 19:28:08,219 INFO  [log] Dlone with test data
+2020-12-04 19:28:08,245 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Property_GroovyScript], time taken: 11990ms, status: FINISHED
+2020-12-04 19:28:08,247 INFO  [SoapUITestCaseRunner] Project [SOAP_Poj_Automation] finished with status [FINISHED] in 27951ms
